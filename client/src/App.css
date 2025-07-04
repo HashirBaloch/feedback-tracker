@@ -1,0 +1,89 @@
+/* client/src/App.css */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  background-color: #f9f9fb;
+}
+
+.container {
+  max-width: 720px;
+  margin: 60px auto;
+  padding: 40px;
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 12px 24px rgba(108, 92, 231, 0.15);
+}
+
+h2 {
+  text-align: center;
+  color: #6c5ce7;
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+form input,
+form textarea {
+  padding: 14px 18px;
+  font-size: 15px;
+  border: 2px solid #dfe6e9;
+  border-radius: 14px;
+  background-color: #fcfcfd;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+form input:focus,
+form textarea:focus {
+  border-color: #6c5ce7;
+  box-shadow: 0 0 0 3px rgba(108, 92, 231, 0.2);
+  outline: none;
+}
+
+form button {
+  padding: 14px;
+  background-color: #6c5ce7;
+  color: white;
+  border: none;
+  border-radius: 14px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+form button:hover {
+  background-color: #5a4bd2;
+}
+
+.feedback-list {
+  margin-top: 50px;
+}
+
+.feedback-item {
+  background-color: #f0f1ff;
+  padding: 20px;
+  border-left: 6px solid #00cec9;
+  border-radius: 16px;
+  margin-bottom: 16px;
+  box-shadow: 0 6px 16px rgba(0, 206, 201, 0.1);
+}
+
+.feedback-item strong {
+  color: #2d3436;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.feedback-item span {
+  display: block;
+  margin-top: 6px;
+  color: #636e72;
+  font-size: 15px;
+}
